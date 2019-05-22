@@ -1,6 +1,8 @@
 spring:
   application:
     name: spring-cloud-feign
+  zipkin:
+    base-url: http://localhost:9411
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
